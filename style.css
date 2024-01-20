@@ -1,0 +1,10 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#name{
+    text-align: center;
+}
+#img{
+    max-width: 50%;
+    align-content:center;
+}
