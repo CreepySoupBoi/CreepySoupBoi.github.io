@@ -1,20 +1,52 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(239,247,207);
+    
+}
+@keyframes name{
+0% {color:rgb(239,247,207);}
+50%{color:rgb(101, 33, 23);}
+100% {color:rgb(239,247,207);}
 }
 #name{
     text-align: center;
+animation-name: name;
+animation-duration: 3s;
+animation-iteration-count: infinite;
 }
 #img{
    max-width:50%;
 }
 #navbarNav{
     padding-left: 10px;
-    background-color:darkseagreen;
+    background-color: rgb(115,44,44);
+    
 }
 #navHome{
     padding-left: 10px;
-    background-color:darkolivegreen;
+    background-color: rgb(66,12,20);
+   
 }
 #submit{
+    background-color: white;
+}
+#info{
+    background-color: rgb(66,12,20);
+}
+#body{
+    background-color: black;
+}
+#address{
+    background-color: white;
+    color:rgb(66,12,20) ;
+}
+#icon{
+    color: rgb(239,247,207);
+}
+
+#navWords{
+    color:white;
+}
+#littleGuy{
     background-color: white;
 }
