@@ -9,12 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel='stylesheet' href='style.css'>
 </head>
 
-<body>
+<body id="body">
     <nav class="navbar navbar-expand-lg" id="navHome">
-        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="index.html" id="navWords">Home<i class="fa-solid fa-house"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,10 +25,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="art.html">Art<span class="sr-only"></span></a>
+                    <a class="nav-link" href="art.html" id="navWords">Art<i class="fa-solid fa-palette"
+                            id="icon"></i><span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html" id="navWords">Contact<i
+                            class="fa-solid fa-envelope"></i></a>
                 </li>
             </ul>
             <form class="form-inline">
@@ -33,11 +38,11 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="submit">Search</button>
             </form>
         </div>
-        
+
     </nav>
-    
+
     <hr>
-    <div class="container">
+    <div class="container" id="info">
         <div class="row">
             <div class="col-md-12">
                 <h1 id="name">Jesse Hofman</h1>
@@ -46,36 +51,23 @@
         <hr>
         <div class="row">
             <div class="col-md-6">
-                <p>I'm a sophmore in college and majoring in GIMM at Boise State University. I've started working in
-                    blender to make
-                    simple things and charcaters. Though, I work more in Procreate. This website is to show off the work
-                    I've done
-                    in more of design aspects; like web design and game visuals.</p>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Consectetur a erat nam at lectus urna. Massa id neque aliquam vestibulum
-                    morbi blandit cursus risus. At quis risus sed vulputate odio ut enim blandit. Amet consectetur
-                    adipiscing elit pellentesque. Sed enim ut sem viverra aliquet eget sit amet. Imperdiet dui accumsan
-                    sit amet. Commodo elit at imperdiet dui. Risus nullam eget felis eget nunc lobortis mattis aliquam.
-                    Eu consequat ac felis donec et odio pellentesque. Massa id neque aliquam vestibulum morbi blandit.
-                    Penatibus et magnis dis parturient. Tristique magna sit amet purus gravida quis. Eu ultrices vitae
-                    auctor eu augue. Libero nunc consequat interdum varius. Vitae proin sagittis nisl rhoncus mattis
-                    rhoncus urna neque viverra. Aliquet nibh praesent tristique magna. At erat pellentesque adipiscing
-                    commodo elit at. Eu lobortis elementum nibh tellus molestie nunc non.
-
-                    Cursus mattis molestie a iaculis. Aliquet enim tortor at auctor urna nunc id cursus metus.
-                    Pellentesque eu tincidunt tortor aliquam. Vulputate mi sit amet mauris commodo quis imperdiet massa.
-                    Quis enim lobortis scelerisque fermentum. Malesuada fames ac turpis egestas sed tempus. Ut porttitor
-                    leo a diam sollicitudin tempor. Amet consectetur adipiscing elit ut. Justo donec enim diam
-                    vulputate. Odio morbi quis commodo odio aenean sed adipiscing. Semper quis lectus nulla at. Viverra
-                    accumsan in nisl nisi scelerisque eu ultrices vitae.
+                <p>I'm a sophmore in college and majoring in GIMM at Boise State University. GIMM is a program that
+                    teaches many aspects of game development. Many of the classes consist of coding of many sorts, like
+                    coding in Unity and web coding. I've worked with html, css, JavaScript and Bootstrap. We also dip
+                    into how to design, working with logos and 3D models. Video production is another thing we touched
+                    on in classes, learning how to use Premiere Pro and Photoshop. I've played around a lot with
+                    designing the visuals of websites and really enjoy doing so. What I work more in is drawing and
+                    designing, working in Procreate to make animations and drawings. I've done a lot of comics for
+                    myself and for classes in GIMM. I've started to work in Blender to try to make 3D models and figure 
+                    out how to animate in it. I would like to work more in 3D design.
                 </p>
                 <hr>
-                
-                <a href="https://github.com/">GitHub</a>
+
+                <a href="https://github.com/CreepySoupBoi" id="address">My GitHub</a>
             </div>
             <div class="col-md-6">
                 <img id="img" src="IMG_1088.jpg" class="img-fluid">
+                <hr>
             </div>
         </div>
     </div>
