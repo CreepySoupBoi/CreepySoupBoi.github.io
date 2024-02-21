@@ -1,7 +1,7 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(239,247,207);
-    font-display:block;
+    font-display:swap;
     
 }
 @keyframes name{
@@ -14,6 +14,7 @@
 animation-name: name;
 animation-duration: 3s;
 animation-iteration-count: infinite;
+    font-display:swap;
 }
 #img{
    max-width:50%;
@@ -47,7 +48,7 @@ animation-iteration-count: infinite;
 
 #navWords{
     color:white;
-    font-display:block;
+    font-display:swap;
 }
 #littleGuy{
     background-color: white;
