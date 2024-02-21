@@ -40,10 +40,11 @@ animation-iteration-count: infinite;
 }
 #address{
     background-color: white;
-    color:rgb(66,12,20) ;
+    color:rgb(66,12,20);
 }
 #icon{
     color: rgb(239,247,207);
+    font-display:swap;
 }
 
 #navWords{
@@ -56,4 +57,5 @@ animation-iteration-count: infinite;
 #icon2{
     color:rgb(66,12,20);
     background-color: white;
+    font-display:swap;
 }
