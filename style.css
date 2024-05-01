@@ -64,3 +64,6 @@ animation-iteration-count: infinite;
     text-align: center;
     margin: auto;
 }
+#address{
+    margin-bottom: 10px;
+}
