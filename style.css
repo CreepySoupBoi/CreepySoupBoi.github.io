@@ -61,5 +61,6 @@ animation-iteration-count: infinite;
 }
 #crudVid{
     display:block:
-    margin: auto;
+    margin-left: 50px;
+    margin-top: 20px;
 }
