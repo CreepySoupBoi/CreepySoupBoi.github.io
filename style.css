@@ -59,3 +59,7 @@ animation-iteration-count: infinite;
     background-color: white;
     font-display:swap;
 }
+#crudVid{
+    display:block:
+    margin: auto;
+}
