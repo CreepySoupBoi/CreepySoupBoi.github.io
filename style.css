@@ -61,4 +61,6 @@ animation-iteration-count: infinite;
 }
 .col-md-6{
     border:rgb(239,247,207);
+    text-align: center;
+    margin: auto;
 }
