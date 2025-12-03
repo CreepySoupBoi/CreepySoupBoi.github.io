@@ -67,3 +67,6 @@ animation-iteration-count: infinite;
 href{
     margin-bottom: 10px;
 }
+p{
+   text-align: center; 
+}
