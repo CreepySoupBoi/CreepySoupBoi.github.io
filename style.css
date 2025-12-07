@@ -6,7 +6,7 @@
 }
 @keyframes name{
 0% {color:rgb(239,247,207);}
-50%{color:rgb(101, 33, 23);}
+50%{color:#4CB572;}
 100% {color:rgb(239,247,207);}
 }
 #name{
@@ -21,26 +21,26 @@ animation-iteration-count: infinite;
 }
 #navbarNav{
     padding-left: 10px;
-    background-color: rgb(115,44,44);
+    background-color: #4CB572;
     
 }
 #navHome{
     padding-left: 10px;
-    background-color: rgb(66,12,20);
+    background-color: #135E4B;
    
 }
 #submit{
     background-color: white;
 }
 #info{
-    background-color: rgb(66,12,20);
+    background-color:#135E4B;
 }
 #body{
     background-color: black;
 }
 #address{
     background-color: white;
-    color:rgb(66,12,20);
+    color:#135E4B;
 }
 #icon{
     color: rgb(239,247,207);
@@ -55,7 +55,7 @@ animation-iteration-count: infinite;
     background-color: white;
 }
 #icon2{
-    color:rgb(66,12,20);
+    color:#135E4B;
     background-color: white;
     font-display:swap;
 }
