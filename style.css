@@ -25,10 +25,25 @@ animation-iteration-count: infinite;
     background-color: #4CB572;
     
 }
+#navbarArt{
+    padding-left: 10px;
+    position:sticky;
+    z-index: 10;
+    top:0;
+    font-size: 15px;
+}
+ul{
+    background-color: #4CB572;
+    list-style: none;
+    padding: 20px;
+}
+a{
+    color:rgb(239,247,207);
+    text-decoration: none;
+}
 #navHome{
     padding-left: 10px;
     background-color: #135E4B;
-   
 }
 #submit{
     background-color: white;
@@ -76,5 +91,8 @@ p{
 }
 #icons{
     font-size:20px;
+}
+.navLine{
+    border:solid 5px black;
 }
 
