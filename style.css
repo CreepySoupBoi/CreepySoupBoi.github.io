@@ -95,4 +95,8 @@ p{
 .navLine{
     border:solid 5px black;
 }
+#renderStart{
+margin-left: 350px;
+max-width: 600px;
+}
 
