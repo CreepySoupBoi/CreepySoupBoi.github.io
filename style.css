@@ -17,8 +17,21 @@ animation-iteration-count: infinite;
     font-display:swap;
     padding-top: 10px;
 }
+#name2{
+    text-align: center;
+animation-name: name;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+    font-display:swap;
+    padding-top: 10px;
+    font-size: 50px;
+}
+#myName{
+    font-size: 90px;
+}
 #img{
-   max-width:50%;
+   max-width:70%;
+   padding: 30px;
 }
 #navbarNav{
     padding-left: 10px;
@@ -35,14 +48,14 @@ animation-iteration-count: infinite;
 ul{
     background-color: #4CB572;
     list-style: none;
-    padding: 20px;
+    padding: 10px;
 }
 a{
     color:rgb(239,247,207);
     text-decoration: none;
 }
 #navHome{
-    padding-left: 10px;
+    padding-left: 20px;
     background-color: #135E4B;
 }
 #submit{
@@ -66,6 +79,8 @@ a{
 #navWords{
     color:white;
     font-display:swap;
+    font-size: 18px;
+    letter-spacing: 10px;
 }
 #littleGuy{
     background-color: white;
@@ -89,6 +104,9 @@ p{
 #artTitles{
     text-align: center;
 }
+#artTitles2{
+    text-align:left;
+}
 #icons{
     font-size:20px;
 }
@@ -99,4 +117,17 @@ p{
 margin-left: 350px;
 max-width: 600px;
 }
-
+.navWords:hover {
+    color:#135E4B;
+    font-size: 25px;
+}
+li{
+    padding-left:190px;
+}
+#finalComic{
+    max-width: 40%;
+    padding-bottom: 10px;
+}
+#beyond{
+    padding: 10px;
+}
