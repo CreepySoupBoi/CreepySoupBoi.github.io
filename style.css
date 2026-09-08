@@ -101,6 +101,10 @@ href{
 p{
    text-align: center; 
 }
+#description{
+    text-align: center;
+    font-size: 20px;
+}
 #artTitles{
     text-align: center;
 }
@@ -130,4 +134,8 @@ li{
 }
 #beyond{
     padding: 10px;
+}
+#contact{
+    background-color: #135E4B;
+    text-align: left;
 }
