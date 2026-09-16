@@ -6,13 +6,13 @@
 }
 @keyframes name{
 0% {color:rgb(239,247,207);}
-50%{color:#4CB572;}
+50%{color:#5c893e;}
 100% {color:rgb(239,247,207);}
 }
 #name{
     text-align: center;
 animation-name: name;
-animation-duration: 3s;
+animation-duration: 4s;
 animation-iteration-count: infinite;
     font-display:swap;
     padding-top: 10px;
@@ -35,9 +35,10 @@ animation-iteration-count: infinite;
 }
 #navbarNav{
     padding-left: 10px;
-    background-color: #4CB572;
+    background-color: #455739;
     
 }
+
 #navbarArt{
     padding-left: 10px;
     position:sticky;
@@ -46,7 +47,7 @@ animation-iteration-count: infinite;
     font-size: 15px;
 }
 ul{
-    background-color: #4CB572;
+    background-color: #455739;
     list-style: none;
     padding: 10px;
 }
@@ -56,20 +57,22 @@ a{
 }
 #navHome{
     padding-left: 20px;
-    background-color: #135E4B;
+    padding-right: 20px;
+    background-color: #182d1e;
 }
 #submit{
     background-color: white;
 }
 #info{
-    background-color:#135E4B;
+    background-color:black;
 }
 #body{
     background-color: black;
 }
 #address{
-    background-color: white;
-    color:#135E4B;
+    background-color: #455739;
+    font-size: 30px;
+    border-radius: 12px;
 }
 #icon{
     color: rgb(239,247,207);
@@ -77,16 +80,19 @@ a{
 }
 
 #navWords{
-    color:white;
+    color:rgb(239,247,207);
     font-display:swap;
     font-size: 18px;
     letter-spacing: 10px;
+    background-color: #182d1e;
+    border-radius: 12px;
 }
+
 #littleGuy{
     background-color: white;
 }
 #icon2{
-    color:#135E4B;
+    color:#16361e;
     background-color: white;
     font-display:swap;
 }
@@ -105,6 +111,16 @@ p{
     text-align: center;
     font-size: 20px;
 }
+#description2{
+    text-align: left;
+    font-size: 20px;
+}
+.flex-container{
+    display:flex;
+    gap:50px;
+    padding-left: 50px;
+    padding-right:50px;
+}
 #artTitles{
     text-align: center;
 }
@@ -122,20 +138,31 @@ margin-left: 350px;
 max-width: 600px;
 }
 .navWords:hover {
-    color:#135E4B;
+    color:#182d1e;
     font-size: 25px;
 }
 li{
-    padding-left:190px;
+    padding-left:150px;
 }
 #finalComic{
     max-width: 40%;
     padding-bottom: 10px;
 }
-#beyond{
+#beyond, #trainDepot, #hellsIntern, #personalArt, #frogs, #comics, #extra, #name2, #myName, #description3, #posters{
     padding: 10px;
+    background-color: #455739;
+    border-radius: 100px;
 }
+#description3{
+    padding: 10px;
+    background-color: #182d1e;
+    border-radius: 100px;
+}
+
 #contact{
-    background-color: #135E4B;
+    background-color: #182d1e;
     text-align: left;
+}
+#topLine{
+    border: dashed, 4px, #62dd59;
 }
