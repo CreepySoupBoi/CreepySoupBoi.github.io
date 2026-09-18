@@ -4,6 +4,10 @@
     font-display:swap;
     
 }
+html{
+    scroll-behavior: auto;
+}
+
 @keyframes name{
 0% {color:rgb(239,247,207);}
 50%{color:#5c893e;}
