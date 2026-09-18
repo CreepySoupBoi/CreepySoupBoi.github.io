@@ -30,7 +30,7 @@ animation-iteration-count: infinite;
     font-size: 90px;
 }
 #img{
-   max-width:70%;
+   max-width:80%;
    padding: 30px;
 }
 #navbarNav{
@@ -165,4 +165,28 @@ li{
 }
 #topLine{
     border: dashed, 4px, #62dd59;
+}
+.sidebar{
+    position:fixed;
+    padding-left: 5px;
+}
+#sidebarText{
+    display:inline-block;
+    overflow:hidden;
+    white-space: nowrap;
+    width:22px;
+}
+#sidebarTitle{
+    background-color: #455739;
+    border-radius:15px;
+}
+#sidebarText:hover{
+    font-size: 23px;
+    background-color: #182d1e;
+    overflow:visible;
+    width: 105%;
+    border-radius:20px;
+}
+#sidebarIcons{
+    padding-left:6px;
 }
