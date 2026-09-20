@@ -64,6 +64,9 @@ a{
     padding-right: 20px;
     background-color: #182d1e;
 }
+.navbar-toggler{
+    background-color:#455739;
+}
 #submit{
     background-color: white;
 }
